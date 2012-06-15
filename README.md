@@ -1,5 +1,6 @@
-Grails plugin providing annotation driven usage of yammer metrics for grails projects.
+Grails Metrics Plugin
 =======
+Grails plugin to provide JVM metrics for grails projects via the yammer-metrics project.
 The primary objective of the plugin is to remove boiler plate code when adding metrics to your project.
 
 Annotations
@@ -92,11 +93,6 @@ TODO
  * Automatic controller or service metrics
  * Some gui component (different plugin?)
 
-
-License
--------
- Published under Apache Software License 2.0, see LICENSE
-
 Notes
 -------
 The plugin provides a build dependency on the 'metrics-core' java project.  The plugin does not interfeer with any
@@ -105,8 +101,13 @@ For detailed documentation on the yammer metrics package see:
 
 http://metrics.codahale.com/index.html
 
+License
+-------
+Published under Apache Software License 2.0, see LICENSE
+
+
 
 Acknowledgments
 -------
- Thanks to Jeff Ellis for creating the grails-yammer-metrics plugin which got me interested in yammer-metrics
- Thanks to Coda Hale and all the guys/gals at Yammer for creating the metrics project.
+* Thanks to Jeff Ellis for creating the grails-yammer-metrics plugin which got me interested in yammer-metrics
+* Thanks to Coda Hale and all the guys/gals at Yammer for creating the metrics project.
