@@ -1,6 +1,6 @@
 Grails Metrics Plugin
 =======
-Grails plugin to provide JVM metrics for grails projects via the yammer-metrics project.
+Grails plugin to provide JVM metrics for grails applications via the yammer-metrics project.
 The primary objective of the plugin is to remove boiler plate code when adding metrics to your project.
 
 Annotations
@@ -46,11 +46,6 @@ class SomeService{
 @Metered
 This annotation can be added to any method you wish to be metered.  @Metered uses sensible defaults to create an instance of
 com.yammer.metrics.core.Meter and the associated code to update it from within your method body.
-
-
-@Metered
-If you want to create a meter on a method simply add @com.yammer.metrics.groovy.Metered to the method.
-This will create a meter on the class to record calls to that method the the necessary method calls
 
 
 Before
